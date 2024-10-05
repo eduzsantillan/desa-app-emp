@@ -1,4 +1,4 @@
-package lecturas.patronesdiseno;
+package lecturas.extra.patronesdiseno;
 
 import utilitarios.Usuario;
 

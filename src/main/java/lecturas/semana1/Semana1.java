@@ -1,4 +1,4 @@
-package lecturas;
+package lecturas.semana1;
 
 import utilitarios.DBUtilitario;
 

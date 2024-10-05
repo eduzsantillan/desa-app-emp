@@ -1,4 +1,4 @@
-package lecturas;
+package lecturas.semana2;
 
 import java.sql.*;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package lecturas;
+package lecturas.semana2;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
