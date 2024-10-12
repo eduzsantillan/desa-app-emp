@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="unnamed2">
+    <output-path>$PROJECT_DIR$/src/main/java/lecturas/semana6/target/semana6</output-path>
+    <root id="root" />
+  </artifact>
+</component>
