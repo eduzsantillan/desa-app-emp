@@ -28,4 +28,21 @@ public class PersonaDao implements PersonaRepository {
         entityManager.persist(persona);
         entityManager.getTransaction().commit();
     }
+
+    public Persona findById(Integer id){
+        return entityManager.find(Persona.class, id);
+    }
+
+    public void update(Persona persona){
+        entityManager.getTransaction().begin();
+        entityManager.merge(persona);
+        entityManager.getTransaction().commit();
+    }
+
+    public void delete(Integer id){
+        Persona persona = findById(id);
+        entityManager.getTransaction().begin();
+        entityManager.remove(persona);
+        entityManager.getTransaction().commit();
+    }
 }

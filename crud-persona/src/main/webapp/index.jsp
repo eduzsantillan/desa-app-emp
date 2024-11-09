@@ -51,22 +51,22 @@
                         <td>${persona.apellido}</td>
                         <td>${persona.nacionalidad}</td>
                         <td>
-                          <span class="status-badge status-active">
+                          <span class="status-badge status-${persona.estado}">
                                   ${persona.estado}
                           </span>
                         </td>
                         <td>${persona.correo}</td>
                         <td>
                             <div class="actions">
-                                <button class="action-btn action-view">
+                                <a href="<%=request.getContextPath()%>/details?id=${persona.id}" class="action-btn action-view">
                                     Ver detalle
-                                </button>
-                                <button class="action-btn action-edit">
+                                </a>
+                                <a href="<%=request.getContextPath()%>/edit?id=${persona.id}" class="action-btn action-edit">
                                     Editar
-                                </button>
-                                <button class="action-btn action-delete">
+                                </a>
+                                <a href="<%=request.getContextPath()%>/delete?id=${persona.id}" class="action-btn action-delete">
                                     Eliminar
-                                </button>
+                                </a>
                             </div>
                         </td>
                     </tr>

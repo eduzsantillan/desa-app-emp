@@ -5,6 +5,9 @@
     margin-bottom: 2rem;
 }
 
+.persona-header h3 {
+    margin-bottom: 2%;
+}
 .persona-title {
     font-size: 1.5rem;
     font-weight: 600;
