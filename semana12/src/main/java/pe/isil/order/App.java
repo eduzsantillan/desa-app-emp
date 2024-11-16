@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        OrderService orderService = new OrderService();
+        OrderService orderService = new OrderService(new StockClient());
         System.out.println("Bienvenido a la tienda");
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
